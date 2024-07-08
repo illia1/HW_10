@@ -1,0 +1,75 @@
+    1  git config --global user.name "Illia1"
+    2  git config --global user.email "rererrer43@gmail.com"
+    3  git config --get user.name
+    4  git config --get user.email
+    5  git clone https://github.com/illia1/HW_10.git
+    6  ls -l
+    7  cd HW_10/
+    8  git status
+    9  touch text_ignore.txt
+   10  nano .gitignore
+   11  nano .gitignore
+   12  ls -l
+   13  cd p3/p3/HW_10/
+   14  git clean
+   15  clean
+   16  git status
+   17  git add .
+   18  git commit
+   19  cd p3/p3/HW_10/
+   20  git status
+   21  git add .
+   22  git commit -m "task 1 done"
+   23  touch main_test.txt
+   24  clean
+   25  git config --global user.name "Illia1"
+   26  git config  --global user.email rererrer43@gmail.com
+   27  git clone https://github.com/illia1/HW_10.git
+   28  help
+   29  ls -l
+   30  git status
+   31  help dir
+   32  -c
+   33  git -c
+   34  clean
+   35  git clean
+   36  clean dir
+   37  man ls
+   38  help ls
+   39  help
+   40  q
+   41  ls
+   42  cls
+   43  clear
+   44  cd p3/p3/HW_10/
+   45  git status
+   46  git push
+   47  clean
+   48  touch main_test.txt
+   49  git status
+   50  git add . 
+   51  git status
+   52  git commit -m "Task 2 done"
+   53  git status
+   54  git push
+   55  clean
+   56  git clean
+   57  git branch
+   58  git checkout -b develop_branch
+   59  git branch
+   60  touch develop_test.txt
+   61  git add .
+   62  git commit -m "Half of work of Task 3"
+   63  nano develop_test.txt 
+   64  cd p3/p3/HW_10/
+   65  git status
+   66  echo "This is a test file for the develop branch." >> develop_test.txt 
+   67  git status
+   68  git add .
+   69  git status
+   70  git commit -m "Task 3 done"
+   71  git checkout main
+   72  git branch
+   73  git merge develop_branch 
+   74  git log
+   75  history > command_list.csv
